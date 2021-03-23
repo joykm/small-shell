@@ -1,9 +1,9 @@
-## ** Instructions on how to compile and run smallsh.c
+**Instructions on how to compile and run smallsh.c
 	1. Compile smallsh.c using "gcc --std=c99 -o smallsh smallsh.c"
 	2. Run smallsh with "./smallsh"
 
 
-## ** Features:
+**Features:
 	1. Manually implemented commands:
 		a. “cd” - Supports absolute and relative paths, supports "cd", "cd .”, “cd ..", "cd -", "cd ~", "cd /", "cd ../../dir" 
 		b. “status” - displays the exit status of the last run command
@@ -19,7 +19,7 @@
 		b. The default functionality of CTRL-Z will be ignored using signal handling. It will be replaced with a function to ignore or allow background process commands. While ignoring background process commands, any command with the & suffix will instead be run as a foreground process. i.e. “sleep 50 &” will instead be interpreted as “sleep 50”. 
 
 
-## ** Example Usage:
+##**Example Usage:
 
 	// Note: Run smallsh
 	$ ./smallsh
